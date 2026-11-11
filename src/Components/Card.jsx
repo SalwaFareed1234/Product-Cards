@@ -1,6 +1,7 @@
 
 import React from 'react'
 import { Button } from '@base-ui/react'
+import { ShoppingCart } from '@/components/animate-ui/icons/shopping-cart';
 
 const Card = (props) => {
   return (
@@ -25,6 +26,7 @@ const Card = (props) => {
         variant="destructive"
       >
         Destructive
+          <ShoppingCart animateOnHover />
       </Button>
 
     </div>
